@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="Preload" href="style/style.css" as="style">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="Preload" href="style/normalize.css" as="style">
+        <link rel="stylesheet" href="style/normalize.css">
+        <title>Dulce Tentación</title>
+    </head>
+    <body style="background: url('./assets/img/backmain.jpg') no-repeat; background-size: cover;">
+        <header class="header">
+            <div>
+                <div class="encabezado">
+                    <a href="index.html"><img src="./assets/img/logoheader2.png" alt="" ></a>
+                    <nav class="nav">
+                        <a href="aboutus.html">NOSOTROS</a>
+                        <a href="cat.html">CATALOGO</a>
+                        <a href="order.html">PEDIDOS</a>
+                        <a href="access.html">ACCESO</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <menu>
+            <div class="menu_nav">
+                <a href ="./index.html">Inicio > <span class="menu_elementos-span"> Catálogo</span></a>
+            </div>
+            <h1>Pequemos a gusto</h1>
+            <section class="form_contenedor">
+                <div>
+                    <h3>Aquí se hace el pedido</h1>
+                    <form action="pedido.js">
+                        <div class="pedido">
+                            <div class="pedido_elemento">
+                                <label class="pedido_label" for="Nombre">Danos tu Nombre, PECADOR!!!</label><br>
+                                <input class="pedido_input" type="text" id="Nombre" name="Nombre" placeholder="Nombre">
+                            </div>
+
+                            <div class="pedido_elemento">
+                                <label class="pedido_label" for="cliente">Danos tu Id de Pecador</label><br>
+                                <input class="pedido_input" type="number" id="cliente" name="cliente" placeholder="1">
+                            </div>
+                            <div class="pedido_elemento">
+                                <label class="pedido_label" for="paquete">
+                                    <input class="pedido_input_radio" type="radio" name="paquete" id="paquete">¿Gustas el paqueton "Entre más grande mejor"?
+                                </label>
+                            </div>
+                            <div class="pedido_elemento">
+                                <label class="pedido_label" for="pecados">Pecado en grupo:</label>
+                                <input class="pedido_input" id="pecados" type="text" Placeholder="Indicanos el pecado por favor"/>  
+                                <select name="pecados" size="2" multiple="multiple">  
+                                    <option value="1"> Nacional </option>  
+                                    <option value="2"> Nice </option>
+                                </select>
+                            </div>
+                            <div class="pedido_elemento">
+                                <label class="pedido_label" for="pecado_capital">Pecado capital:</label>
+                                <input class="pedido_input" id="pecado_capital" type="text" Placeholder="Indicanos el pecado capital por favor"/>  
+                            </div>
+                            <div class="pedido_elemento">
+                                <select name="pecados" size="8" multiple="multiple">  
+                                    <option value="1"> Chocolate </option>  
+                                    <option value="2"> Fresa </option>
+                                    <option value="3"> Chocolate Intenso </option>
+                                    <option value="4"> Fresa Pasional </option>
+                                    <option value="5"> Vainilla </option>
+                                    <option value="6"> Tres Leches </option>
+                                    <option value="7"> Frances </option>
+                                    <option value="8"> Michoacano </option>
+                                </select>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <section>
+                <div class="creador_pedido">
+                    <a href="./order.html" class="btn2">Pecar</a>
+                </div>
+            </section>
+        </menu>
+    </body>
+    <footer class="footer">
+        <!--iv class="footer__logo"><img src="./assets/img/logofooter.png" alt=""></div-->
+        <div class="contenedor">
+            <div class="footer__elementos">
+                <p><span>DULCE TENTANCIÓN</span></p>
+                <a href="#">Eventos Especiales</a>
+                <a href="#">Bolsa de Trabajo</a>
+                <a href="#">Uber Eats</a>
+            </div>
+            <div class="footer__elementos">
+                <p><span>INVITADOS</span></p>
+                <a href="#">Mi cuenta</a>
+                <a href="#">Facturación</a>
+                <a href="#">Atención a Clientes</a>
+            </div>
+            <div class="footer__elementos">
+                <p><span>LEGAL</span></p>
+                <a href="#">Aviso de Privacidad</a>
+                <a href="#">Términos y Condiciones</a>
+            </div>
+            <div class="footer__elementos">
+                <p><span>REDES SOCIALES</span></p>
+                <img src="./assets/img/facebook.png" alt="">
+                <img src="./assets/img/instagram.png" alt="">
+                <img src="./assets/img/whatsapp.png" alt="">
+            </div>
+        </div>
+    </footer>
+</html>
