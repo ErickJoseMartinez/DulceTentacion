@@ -369,12 +369,66 @@ img{
     
 }
 .pedido_input{
-    width: 100%;
-    border: none;
-    border-radius: 3%;
-    background-color: rgba(155,155,155,0.4);
+    width: 80%;
 }
-
+@media(min-width: 768px){
+    .pedido_input{
+        width: 100%;
+        border: none;
+        border-radius: 3%;
+        background-color: rgba(155,155,155,0.4);
+    }
+    .pedido_list{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        text-align: right;
+    }
+}
 .radio{
     display: inline;
+}
+
+/* TABLA */
+
+.table{
+    width: 100% ;
+    background-color: var(--blanco);
+    text-align: left;
+    border-collapse: collapse;
+    margin-bottom: 1rem;
+}
+@media(max-width: 768px){
+    table tr{
+        display: flex;
+        flex-direction: column;
+        border: solid 1px var(--primario-oscuro);
+        padding: 1rem;
+        margin-bottom: 1rem;
+    }
+    table tr:first-child{
+        display: none;
+    }
+    table td[data-t]{
+        display: flex;
+        align-items: flex-start;
+        padding-left: 1rem;
+    }
+    table td[data-t]::before{
+        content: attr( data-t);
+    }      
+}
+@media(min-width: 76px){
+    table{
+        border-collapse: collapse;
+        width: 90%;
+    }
+    th, td{
+        border: solid 1px var(--primario);
+        padding: 1rem;
+    }
+    th{
+        border-bottom: solid 3px var(--primario);
+        background-color: var(--primario);
+        color: var(--blanco);
+    }
 }

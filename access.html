@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="Preload" href="style/style.css" as="style">
+        <link rel="stylesheet" href="style/style.css">
+        <link rel="Preload" href="style/normalize.css" as="style">
+        <link rel="stylesheet" href="style/normalize.css">
+        <title>Dulce Tentación</title>
+    </head>
+    <body style="background: url('./assets/img/backmain.jpg') no-repeat; background-size: cover;">
+        <header class="header">
+            <div>
+                <div class="encabezado">
+                    <a href="index.html"><img src="./assets/img/logoheader2.png" alt="" ></a>
+                    <nav class="nav">
+                        <a href="aboutus.html">NOSOTROS</a>
+                        <a href="cat.html">CATALOGO</a>
+                        <a href="order.html">PEDIDOS</a>
+                        <a href="access.html">ACCESO</a>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+        <menu>
+            <div class="menu_nav">
+                <a href ="./index.html">Inicio > <span class="menu_elementos-span"> Catálogo</span></a>
+            </div>
+            <h1>Revisemos la lista de pecados almacenados</h1>
+            <section class="pedido form_contenedor">
+                <div class="pedido_list">
+                    <div class="pedido_label">
+                        <label for="harina">Harina</label>
+                    </div>
+                    <div class="pedido_input">
+                        <input list="harina">
+                        <datalist id="harina">
+                            <option value="20%"></option>
+                            <option value="40%"></option>
+                            <option value="60%"></option>
+                            <option value="80%"></option>
+                            <option value="100%"></option>
+                        </datalist>
+                        </div>
+                </div>
+                <div class="pedido_list">
+                    <div class="pedido_label">
+                        <label for="leche">Leche</label>
+                    </div>
+                    <div class="pedido_input">
+                        <input list="leche">
+                        <datalist id="leche">
+                            <option value="20"></option>
+                            <option value="40"></option>
+                            <option value="60"></option>
+                            <option value="80"></option>
+                            <option value="100"></option>
+                        </datalist>
+                        </div>
+                </div>
+                <div class="pedido_list">
+                    <div class="pedido_label">
+                        <label for="levadura">Levadura</label>
+                    </div>
+                    <div class="pedido_input">
+                        <input list="levadura">
+                        <datalist id="levadura">
+                            <option value="20%"></option>
+                            <option value="40%"></option>
+                            <option value="60%"></option>
+                            <option value="80%"></option>
+                            <option value="100%"></option>
+                        </datalist>
+                        </div>
+                </div>
+                <div class="pedido_list">
+                    <div class="pedido_label">
+                        <label for="huevos">Huevos</label>
+                    </div>
+                    <div class="pedido_input">
+                        <input list="huevos">
+                        <datalist id="huevos">
+                            <option value="5"></option>
+                            <option value="10"></option>
+                            <option value="15"></option>
+                            <option value="20"></option>
+                            <option value="25"></option>
+                        </datalist>
+                        </div>
+                </div>
+                <div class="pedido_list">
+                    <div class="pedido_label">
+                        <label for="gas">Gas</label>
+                    </div>
+                    <div class="pedido_input">
+                        <input list="gas">
+                        <datalist id="gas">
+                            <option value="10%"></option>
+                            <option value="20%"></option>
+                            <option value="30%"></option>
+                            <option value="40%"></option>
+                            <option value="50%"></option>
+                            <option value="60%"></option>
+                            <option value="70%"></option>
+                            <option value="80%"></option>
+                            <option value="90%"></option>
+                            <option value="100%"></option>
+                        </datalist>
+                    </div> 
+                </div>
+                <div class="pedido_list">
+                    <div class="pedido_label">
+                        <label for="molde">Moldes</label>
+                    </div>
+                    <div class="pedido_input">
+                        <input list="molde">
+                        <datalist id="molde">
+                            <option value="50"></option>
+                            <option value="100"></option>
+                            <option value="150"></option>
+                            <option value="200"></option>
+                            <option value="250"></option>
+                            <option value="300"></option>
+                        </datalist>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <h1>Su pedido</h1>
+
+                    <table>
+                      <tr>
+                        <th scope="col">Pedido</th>
+                        <th scope="col">Pecador</th>
+                        <th scope="col">Estatus</th>
+                        <th scope="col">Revisar</th>
+                      </tr>
+                      <tr>
+                        <td data-t="Pedido: ">RQ01</td>
+                        <td data-t="Nombre: ">Erick Martínez</td>
+                        <td data-t="Estatus: ">Finalizado</td>
+                        <td><a href="#" class="">Revisar</a></td>
+                      </tr>
+                      <tr>
+                        <td data-t="Pedido: ">RQ02</td>
+                        <td data-t="Nombre: ">Jazmin Melgarejo</td>
+                        <td data-t="Estatus: ">En Proceso</td>
+                        <td><a href="#" class="">Revisar</a></td>
+                      </tr>
+                      <tr>
+                        <td data-t="Pedido: ">RQ03</td>
+                        <td data-t="Nombre: ">Juan Fernandez</td>
+                        <td data-t="Estatus: ">Solicitado</td>
+                        <td><a href="#" class="">Revisar</a></td>
+                      </tr>
+                    
+                      <tr>
+                    
+                        <td data-t="Pedido: ">RQ04</td>
+                        <td data-t="Nombre: ">Manuel Sandaya</td>
+                        <td data-t="Estatus: ">Finalizado</td>
+                        <td><a href="#" class="">Revisar</a></td>
+                      </tr>
+                    </table>
+                </div>
+            </section>
+        </menu>
+    </body>
+    <footer class="footer">
+        <!--iv class="footer__logo"><img src="./assets/img/logofooter.png" alt=""></div-->
+        <div class="contenedor">
+            <div class="footer__elementos">
+                <p><span>DULCE TENTANCIÓN</span></p>
+                <a href="#">Eventos Especiales</a>
+                <a href="#">Bolsa de Trabajo</a>
+                <a href="#">Uber Eats</a>
+            </div>
+            <div class="footer__elementos">
+                <p><span>INVITADOS</span></p>
+                <a href="#">Mi cuenta</a>
+                <a href="#">Facturación</a>
+                <a href="#">Atención a Clientes</a>
+            </div>
+            <div class="footer__elementos">
+                <p><span>LEGAL</span></p>
+                <a href="#">Aviso de Privacidad</a>
+                <a href="#">Términos y Condiciones</a>
+            </div>
+            <div class="footer__elementos">
+                <p><span>REDES SOCIALES</span></p>
+                <img src="./assets/img/facebook.png" alt="">
+                <img src="./assets/img/instagram.png" alt="">
+                <img src="./assets/img/whatsapp.png" alt="">
+            </div>
+        </div>
+    </footer>
+</html>
